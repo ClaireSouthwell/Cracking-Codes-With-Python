@@ -42,6 +42,7 @@ print(result)
 
 '''
 # How the book handles the program logic:
+ciphertext = [''] * key
 for column in range(key):
     # 
     currentIndex = column
